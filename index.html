@@ -342,8 +342,9 @@
           const { loading } = this.props;
           return (
             <div>
+              <h1>Redux Demo</h1>
               {loading ? (
-                <div
+                <divs
                   style={{
                     display: 'flex',
                     alignItems: 'center',
@@ -353,7 +354,7 @@
                 >
                   <h2>Loading...</h2>
                   <img src="./loading.gif" alt="loading indicator" />
-                </div>
+                </divs>
               ) : (
                 <div>
                   <ConnectedTodos />
